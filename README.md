@@ -21,7 +21,7 @@ flask run
 ```
 
 ## Test
-curl -i -X POST -F filedata=@assets/cat.jpg http://localhost:5000/predict
+`curl -i -X POST -F filedata=@assets/cat.jpg http://localhost:5000/predict`
 
 ### Example Output
 ```
